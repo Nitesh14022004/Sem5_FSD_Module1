@@ -1,0 +1,19 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #e30f0f;
+    position: relative;
+    animation: move 2s infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(10000);
+    }
+    50% {
+      transform: translateX(1360px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
