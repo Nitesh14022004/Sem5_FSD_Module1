@@ -1,5 +1,4 @@
-import React from 'react'
-import { Mycomponent  } from './components/style.css';
+import React from 'react';
 
 
 export const App1 = () => {
